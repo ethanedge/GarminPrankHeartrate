@@ -58,6 +58,7 @@ class PrankHeartRateView extends WatchUi.View {
 
     // Calls measuringHeartRate() each second
     function measuringHeartRateEachSecond() {
+        measuringHeartRate();
         var myTimer = new Timer.Timer();
         myTimer.start(method(:measuringHeartRate), 1000, true);
     }
