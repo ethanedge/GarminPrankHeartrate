@@ -1,4 +1,11 @@
 <layout id="MainLayout">
+    <bitmap
+        id="heart_icon"
+        filename="../drawables/heart-icon.png"
+        x="center"
+        y="20%" 
+    />
+
     <label
         id="heart_rate"
         text="50 BPM"
