@@ -142,29 +142,73 @@ Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_bin_gen_006_B2691_00_sourc
             %tmp.47 = newc %tmp.50 (%tmp.99);
             lputv %rez_cmp_local_text_heart_rate.2 %tmp.47;
 [ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen" 27 12 ]
-            %tmp.100 = newa Array<WatchUi.Drawable> 2;
-            %tmp.102 = lgetv %rez_cmp_local_bitmap_heart_icon.1;
-            %tmp.103 = dup %tmp.100;
-            %tmp.104 = aputv %tmp.103 0 %tmp.102;
-            %tmp.106 = lgetv %rez_cmp_local_text_heart_rate.2;
-            %tmp.107 = dup %tmp.104;
-            %tmp.108 = aputv %tmp.107 1 %tmp.106;
-            ret %tmp.108;
+            [ "Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_bin_gen_006_B2691_00_source_Rez_mcgen_21_74_start" "Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_bin_gen_006_B2691_00_source_Rez_mcgen_21_74_stop" ]
+            %rez_cmp_local_text_warning.3 = local;
+            %tmp.102 = getm $.Toybox.WatchUi;
+            %tmp.103 = getv function ? %tmp.102 :Text;
+            %tmp.104 = newd 6;
+            %tmp.106 = const :identifier;
+            %tmp.107 = "warning";
+            %tmp.108 = dup %tmp.104;
+            %tmp.109 = aputv %tmp.108 %tmp.106 %tmp.107;
+            %tmp.111 = const :color;
+            %tmp.112 = getm $.Toybox.Graphics;
+            %tmp.113 = getv %tmp.112 :COLOR_GREEN;
+            %tmp.114 = dup %tmp.109;
+            %tmp.115 = aputv %tmp.114 %tmp.111 %tmp.113;
+            %tmp.117 = const :locX;
+            %tmp.118 = 240;
+            %tmp.119 = 0.5;
+            %tmp.120 = mul %tmp.118 %tmp.119;
+            %tmp.121 = dup %tmp.115;
+            %tmp.122 = aputv %tmp.121 %tmp.117 %tmp.120;
+            %tmp.124 = const :locY;
+            %tmp.125 = 240;
+            %tmp.126 = 60;
+            %tmp.127 = 100.0;
+            %tmp.128 = div %tmp.126 %tmp.127;
+            %tmp.129 = mul %tmp.125 %tmp.128;
+            %tmp.130 = dup %tmp.122;
+            %tmp.131 = aputv %tmp.130 %tmp.124 %tmp.129;
+            %tmp.133 = const :justification;
+            %tmp.134 = getm $.Toybox.Graphics;
+            %tmp.135 = getv %tmp.134 :TEXT_JUSTIFY_CENTER;
+            %tmp.136 = dup %tmp.131;
+            %tmp.137 = aputv %tmp.136 %tmp.133 %tmp.135;
+            %tmp.139 = const :font;
+            %tmp.140 = getm $.Toybox.Graphics;
+            %tmp.141 = getv %tmp.140 :FONT_LARGE;
+            %tmp.142 = dup %tmp.137;
+            %tmp.143 = aputv %tmp.142 %tmp.139 %tmp.141;
+            %tmp.100 = newc %tmp.103 (%tmp.143);
+            lputv %rez_cmp_local_text_warning.3 %tmp.100;
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen" 29 12 ]
+            %tmp.144 = newa Array<WatchUi.Drawable> 3;
+            %tmp.146 = lgetv %rez_cmp_local_bitmap_heart_icon.1;
+            %tmp.147 = dup %tmp.144;
+            %tmp.148 = aputv %tmp.147 0 %tmp.146;
+            %tmp.150 = lgetv %rez_cmp_local_text_heart_rate.2;
+            %tmp.151 = dup %tmp.148;
+            %tmp.152 = aputv %tmp.151 1 %tmp.150;
+            %tmp.154 = lgetv %rez_cmp_local_text_warning.3;
+            %tmp.155 = dup %tmp.152;
+            %tmp.156 = aputv %tmp.155 2 %tmp.154;
+            ret %tmp.156;
 Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_bin_gen_006_B2691_00_source_Rez_mcgen_21_74_stop:
         }
     }
-    [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen"; @line = 31; ]
+    [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen"; @line = 33; ]
     module Menus {
-        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen"; @line = 31; ]
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen"; @line = 33; ]
         <init> {
         }
     }
-    [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen"; @line = 34; ]
+    [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen"; @line = 36; ]
     module Strings {
-        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen"; @line = 34; ]
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen"; @line = 36; ]
         <init> {
         }
-        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen"; @line = 35; @position = 27; initialized = true; ]
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen"; @line = 37; @position = 27; initialized = true; ]
         var AppName as Symbol;
     }
 }

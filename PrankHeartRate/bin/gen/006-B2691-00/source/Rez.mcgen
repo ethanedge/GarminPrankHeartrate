@@ -24,7 +24,9 @@ module Rez {
 
             var rez_cmp_local_text_heart_rate = new WatchUi.Text({:identifier=>"heart_rate", :color=>Gfx.COLOR_GREEN, :locX=>(240 * 0.5), :locY=>((240 - dc.getFontHeight(Gfx.FONT_LARGE)) * 0.5), :text=>"50 BPM", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_LARGE});
 
-            return [rez_cmp_local_bitmap_heart_icon, rez_cmp_local_text_heart_rate] as Array<WatchUi.Drawable>;
+            var rez_cmp_local_text_warning = new WatchUi.Text({:identifier=>"warning", :color=>Gfx.COLOR_GREEN, :locX=>(240 * 0.5), :locY=>(240 * (60 / 100.0)), :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_LARGE});
+
+            return [rez_cmp_local_bitmap_heart_icon, rez_cmp_local_text_heart_rate, rez_cmp_local_text_warning] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 
