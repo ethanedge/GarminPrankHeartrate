@@ -1,0 +1,11 @@
+<layout id="MainLayout">
+    <label
+        id="heart_rate"
+        text="50 BPM"
+        x="center"
+        y="center" 
+        font="Gfx.FONT_LARGE"
+        color="Gfx.COLOR_GREEN"
+        justification="Gfx.TEXT_JUSTIFY_CENTER"
+    />
+</layout>
