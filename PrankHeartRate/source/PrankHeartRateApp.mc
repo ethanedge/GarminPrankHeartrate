@@ -18,10 +18,8 @@ class PrankHeartRateApp extends Application.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() as Array<Views or InputDelegates>? {
-        var _view = new PrankHeartRateView();
-        return [ _view ] as Array<Views or InputDelegates>;
+        return [ new PrankHeartRateView() ] as Array<Views or InputDelegates>;
     }
-
 }
 
 function getApp() as PrankHeartRateApp {

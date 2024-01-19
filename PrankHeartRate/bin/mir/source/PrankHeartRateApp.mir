@@ -32,30 +32,25 @@ Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateApp_m
     function getInitialView() as Array<Views or InputDelegates> or Null {
 Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateApp_mc_20_65_start:
 [ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateApp.mc" 21 8 ]
-        [ "Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateApp_mc_20_65_start" "Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateApp_mc_20_65_stop" ]
-        %_view.1 = local;
-        %tmp.4 = getv ? :PrankHeartRateView;
-        %tmp.1 = newc %tmp.4 ();
-        lputv %_view.1 %tmp.1;
-[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateApp.mc" 22 8 ]
-        %tmp.5 = newa Array<Views or InputDelegates> 1;
-        %tmp.7 = lgetv %_view.1;
-        %tmp.8 = dup %tmp.5;
-        %tmp.9 = aputv %tmp.8 0 %tmp.7;
-        ret %tmp.9;
+        %tmp.1 = newa Array<Views or InputDelegates> 1;
+        %tmp.5 = getv ? :PrankHeartRateView;
+        %tmp.2 = newc %tmp.5 ();
+        %tmp.6 = dup %tmp.1;
+        %tmp.7 = aputv %tmp.6 0 %tmp.2;
+        ret %tmp.7;
 Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateApp_mc_20_65_stop:
     }
 }
-[ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateApp.mc"; @line = 27; ]
+[ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateApp.mc"; @line = 25; ]
 function getApp() as PrankHeartRateApp {
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateApp_mc_27_39_start:
-[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateApp.mc" 28 4 ]
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateApp_mc_25_39_start:
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateApp.mc" 26 4 ]
     %tmp.1 = getm $.Toybox.Application;
     %tmp.2 = getv function %tmp.1 :getApp;
     %tmp.3 = invoke %tmp.1 %tmp.2();
     %tmp.4 = as %tmp.3 PrankHeartRateApp;
     ret %tmp.4;
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateApp_mc_27_39_stop:
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateApp_mc_25_39_stop:
 }
 [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateApp.mc"; @line = 1; ]
 <init> {

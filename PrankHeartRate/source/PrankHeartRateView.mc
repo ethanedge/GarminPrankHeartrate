@@ -3,10 +3,16 @@ import Toybox.WatchUi;
 import Toybox.Math;
 import Toybox.Timer;
 
-class PrankHeartrateView extends WatchUi.View {
+class PrankHeartRateView extends WatchUi.View {
+
+    const RAND_MAX = 0x7FFFFFFF;
+    const LOW_START = 75;
+    const HIGH_START = 100;
+    const LOW_INCREMENT = -3;
+    const HIGH_INCREMENT = 8;
 
     private var _heartRateElement;
-    private var test;
+    private var _heartRate;
 
     function initialize() {
         View.initialize();
@@ -16,10 +22,8 @@ class PrankHeartrateView extends WatchUi.View {
     function onLayout(dc as Dc) as Void {
         setLayout(Rez.Layouts.MainLayout(dc));
 
-        var _heartRate;
         _heartRateElement = findDrawableById("heart_rate");
         _heartRate = chooseStartValue();
-        test = _heartRate;
 
         var _timer = new Timer.Timer();
         _timer.start(method(:updateHeartRate), 2000, true);
@@ -46,27 +50,26 @@ class PrankHeartrateView extends WatchUi.View {
     // Chooses the initial heart rate between the minimum and maximum
     function chooseStartValue() {
 
-        var _heartRate = getRandNum(75,100);
+        var _heartRate = getRandNum(LOW_START, HIGH_START);
 
         displayHeartRate(_heartRate);
         return _heartRate;
     }
 
+    // Get a random number between the low and high value (inclusive)
     function getRandNum(low, high) {
-        var RAND_MAX = 0x7FFFFFFF;
+
         var value = low + Math.rand() / (RAND_MAX / (high - low + 1) + 1);
         return value;
     }
 
 
-    // Adds 1-3 to the current heart rate
+    // Adds a value between the LOW_INCREMENT and HIGH_INCREMENT (inclusive) to the current heart rate
     function updateHeartRate() as Void {
-        var increment = getRandNum(-3,7);
-        var _heartRate = test;
-        System.println(_heartRate);
-        
-        test = test + increment;
-        displayHeartRate(test);
+        var increment = getRandNum(LOW_INCREMENT, HIGH_INCREMENT);
+
+        _heartRate += increment;
+        displayHeartRate(_heartRate);
     }
 
 
