@@ -1,50 +1,50 @@
-[ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen"; @line = 1; ]
+[ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 1; ]
 import Toybox.Lang;
-[ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen"; @line = 2; ]
+[ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 2; ]
 using Toybox.WatchUi;
-[ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen"; @line = 3; ]
+[ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 3; ]
 using Toybox.WatchUi as :Ui;
-[ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen"; @line = 4; ]
+[ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 4; ]
 using Toybox.Graphics;
-[ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen"; @line = 5; ]
+[ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 5; ]
 using Toybox.Graphics as :Gfx;
-[ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen"; @line = 7; ]
+[ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 7; ]
 module Rez {
-    [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen"; @line = 7; ]
+    [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 7; ]
     <init> {
     }
-    [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen"; @line = 8; ]
+    [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 8; ]
     module Drawables {
-        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen"; @line = 8; ]
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 8; ]
         <init> {
         }
-        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
         var heart_icon as Symbol;
-        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen"; @line = 10; @position = 27; initialized = true; ]
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 10; @position = 27; initialized = true; ]
         var LauncherIcon as Symbol;
     }
-    [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen"; @line = 13; ]
+    [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 13; ]
     module Fonts {
-        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen"; @line = 13; ]
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 13; ]
         <init> {
         }
     }
-    [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen"; @line = 16; ]
+    [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 16; ]
     module JsonData {
-        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen"; @line = 16; ]
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 16; ]
         <init> {
         }
     }
-    [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen"; @line = 19; ]
+    [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 19; ]
     module Layouts {
-        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen"; @line = 19; ]
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 19; ]
         <init> {
         }
-        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen"; @line = 20; ]
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 20; ]
         function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_bin_gen_006_B2691_00_source_Rez_mcgen_20_74_start:
-[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen" 21 12 ]
-            [ "Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_bin_gen_006_B2691_00_source_Rez_mcgen_20_74_start" "Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_bin_gen_006_B2691_00_source_Rez_mcgen_20_74_stop" ]
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_bin_gen_006_B3703_00_source_Rez_mcgen_20_74_start:
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen" 21 12 ]
+            [ "Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_bin_gen_006_B3703_00_source_Rez_mcgen_20_74_start" "Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_bin_gen_006_B3703_00_source_Rez_mcgen_20_74_stop" ]
             %rez_cmp_local_bitmap_heart_icon.1 = local;
             %tmp.3 = getm $.Toybox.WatchUi;
             %tmp.4 = getv function ? %tmp.3 :Bitmap;
@@ -66,7 +66,7 @@ Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_bin_gen_006_B2691_00_sourc
             %tmp.23 = dup %tmp.18;
             %tmp.24 = aputv %tmp.23 %tmp.20 %tmp.22;
             %tmp.26 = const :locY;
-            %tmp.27 = 240;
+            %tmp.27 = 416;
             %tmp.28 = 30;
             %tmp.29 = 100.0;
             %tmp.30 = div %tmp.28 %tmp.29;
@@ -75,23 +75,23 @@ Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_bin_gen_006_B2691_00_sourc
             %tmp.33 = aputv %tmp.32 %tmp.26 %tmp.31;
             %tmp.1 = newc %tmp.4 (%tmp.33);
             lputv %rez_cmp_local_bitmap_heart_icon.1 %tmp.1;
-[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen" 22 12 ]
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen" 22 12 ]
             %tmp.34 = lgetv %rez_cmp_local_bitmap_heart_icon.1;
             %tmp.35 = getv function %tmp.34 :setLocation;
-            %tmp.36 = 240;
+            %tmp.36 = 416;
             %tmp.37 = lgetv %rez_cmp_local_bitmap_heart_icon.1;
             %tmp.38 = getv %tmp.37 :width;
             %tmp.39 = sub %tmp.36 %tmp.38;
             %tmp.40 = 0.5;
             %tmp.41 = mul %tmp.39 %tmp.40;
-            %tmp.42 = 240;
+            %tmp.42 = 416;
             %tmp.43 = 30;
             %tmp.44 = 100.0;
             %tmp.45 = div %tmp.43 %tmp.44;
             %tmp.46 = mul %tmp.42 %tmp.45;
             invoke %tmp.34 %tmp.35(%tmp.41, %tmp.46);
-[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen" 24 12 ]
-            [ "Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_bin_gen_006_B2691_00_source_Rez_mcgen_20_74_start" "Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_bin_gen_006_B2691_00_source_Rez_mcgen_20_74_stop" ]
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen" 24 12 ]
+            [ "Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_bin_gen_006_B3703_00_source_Rez_mcgen_20_74_start" "Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_bin_gen_006_B3703_00_source_Rez_mcgen_20_74_stop" ]
             %rez_cmp_local_text_heart_rate.2 = local;
             %tmp.49 = getm $.Toybox.WatchUi;
             %tmp.50 = getv function ? %tmp.49 :Text;
@@ -106,13 +106,13 @@ Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_bin_gen_006_B2691_00_sourc
             %tmp.61 = dup %tmp.56;
             %tmp.62 = aputv %tmp.61 %tmp.58 %tmp.60;
             %tmp.64 = const :locX;
-            %tmp.65 = 240;
+            %tmp.65 = 416;
             %tmp.66 = 0.5;
             %tmp.67 = mul %tmp.65 %tmp.66;
             %tmp.68 = dup %tmp.62;
             %tmp.69 = aputv %tmp.68 %tmp.64 %tmp.67;
             %tmp.71 = const :locY;
-            %tmp.72 = 240;
+            %tmp.72 = 416;
             %tmp.73 = 50;
             %tmp.74 = 100.0;
             %tmp.75 = div %tmp.73 %tmp.74;
@@ -135,7 +135,7 @@ Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_bin_gen_006_B2691_00_sourc
             %tmp.95 = aputv %tmp.94 %tmp.91 %tmp.93;
             %tmp.47 = newc %tmp.50 (%tmp.95);
             lputv %rez_cmp_local_text_heart_rate.2 %tmp.47;
-[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen" 26 12 ]
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen" 26 12 ]
             %tmp.96 = newa Array<WatchUi.Drawable> 2;
             %tmp.98 = lgetv %rez_cmp_local_bitmap_heart_icon.1;
             %tmp.99 = dup %tmp.96;
@@ -144,24 +144,1477 @@ Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_bin_gen_006_B2691_00_sourc
             %tmp.103 = dup %tmp.100;
             %tmp.104 = aputv %tmp.103 1 %tmp.102;
             ret %tmp.104;
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_bin_gen_006_B2691_00_source_Rez_mcgen_20_74_stop:
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_bin_gen_006_B3703_00_source_Rez_mcgen_20_74_stop:
         }
     }
-    [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen"; @line = 30; ]
+    [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 30; ]
     module Menus {
-        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen"; @line = 30; ]
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 30; ]
         <init> {
         }
     }
-    [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen"; @line = 33; ]
+    [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 33; ]
     module Strings {
-        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen"; @line = 33; ]
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 33; ]
         <init> {
         }
-        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen"; @line = 34; @position = 27; initialized = true; ]
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 34; @position = 27; initialized = true; ]
         var AppName as Symbol;
     }
+    [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 37; ]
+    module Styles {
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 37; ]
+        <init> {
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 38; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 38; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 39; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 42; ]
+        module system_size__menu_header {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 42; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 43; @position = 18; ]
+            const width as Number = 416;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 44; @position = 18; ]
+            const height as Number = 95;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 47; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 47; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 48; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 51; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 51; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 52; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 55; ]
+        module prompt_loc__body_no_title {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 55; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 56; @position = 18; ]
+            const x as Number = 42;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 57; @position = 18; ]
+            const y as Number = 62;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 60; ]
+        module system_icon_dark__about {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 60; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 61; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\system_icon_dark__about.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 62; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 63; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 64; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 65; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 68; ]
+        module system_icon_light__question {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 68; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 69; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\system_icon_light__question.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 70; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 71; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 72; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 73; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 76; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 76; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 77; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 80; ]
+        module prompt_font__title {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 80; ]
+            <init> {
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen" 81 18 ]
+                %tmp.105 = getm $.Toybox.Graphics;
+                %tmp.106 = getv %tmp.105 :TEXT_JUSTIFY_CENTER;
+                %tmp.107 = getm $.Toybox.Graphics;
+                %tmp.108 = getv %tmp.107 :TEXT_JUSTIFY_VCENTER;
+                %tmp.109 = bitor %tmp.106 %tmp.108;
+                putv self :justification %tmp.109;
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen" 82 18 ]
+                %tmp.110 = getm $.Toybox.Graphics;
+                %tmp.111 = getv %tmp.110 :FONT_XTINY;
+                putv self :font %tmp.111;
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 81; @position = 18; ]
+            const justification;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 82; @position = 18; ]
+            const font;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 85; ]
+        module system_icon_dark__discard {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 85; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 86; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\system_icon_dark__discard.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 87; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 88; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 89; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 90; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 93; ]
+        module system_size__menu_item {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 93; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 94; @position = 18; ]
+            const width as Number = 416;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 95; @position = 18; ]
+            const height as Number = 105;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 98; ]
+        module system_color_dark__text {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 98; ]
+            <init> {
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen" 100 18 ]
+                %tmp.112 = getm $.Toybox.Graphics;
+                %tmp.113 = getv %tmp.112 :COLOR_TRANSPARENT;
+                putv self :background %tmp.113;
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 99; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 100; @position = 18; ]
+            const background;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 103; ]
+        module system_icon_destructive__discard {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 103; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 104; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\system_icon_destructive__discard.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 105; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 106; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 109; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 109; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 110; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\system_icon_dark__hint_action_menu.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 111; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 112; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 115; ]
+        module prompt_size__title {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 115; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 116; @position = 18; ]
+            const width as Number = 176;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 117; @position = 18; ]
+            const height as Number = 75;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 120; ]
+        module confirmation_font__body {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 120; ]
+            <init> {
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen" 121 18 ]
+                %tmp.114 = getm $.Toybox.Graphics;
+                %tmp.115 = getv %tmp.114 :TEXT_JUSTIFY_CENTER;
+                %tmp.116 = getm $.Toybox.Graphics;
+                %tmp.117 = getv %tmp.116 :TEXT_JUSTIFY_VCENTER;
+                %tmp.118 = bitor %tmp.115 %tmp.117;
+                putv self :justification %tmp.118;
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen" 122 18 ]
+                %tmp.119 = getm $.Toybox.Graphics;
+                %tmp.120 = getv %tmp.119 :FONT_TINY;
+                putv self :font %tmp.120;
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 121; @position = 18; ]
+            const justification;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 122; @position = 18; ]
+            const font;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 125; ]
+        module system_color_dark__background {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 125; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 126; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 127; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 130; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 130; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 131; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 134; ]
+        module system_size__launch_icon {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 134; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 135; @position = 18; ]
+            const scaleX as Number = 70;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 136; @position = 18; ]
+            const scaleY as Number = 70;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 137; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 140; ]
+        module confirmation_input__confirm {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 140; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 141; @position = 18; ]
+            const y1 as Number = 322;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 142; @position = 18; ]
+            const x1 as Number = 79;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 143; @position = 18; ]
+            const y2 as Number = 416;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 144; @position = 18; ]
+            const x2 as Number = 311;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 147; ]
+        module prompt_font__body_with_title {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 147; ]
+            <init> {
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen" 148 18 ]
+                %tmp.121 = getm $.Toybox.Graphics;
+                %tmp.122 = getv %tmp.121 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.122;
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen" 149 18 ]
+                %tmp.123 = getm $.Toybox.Graphics;
+                %tmp.124 = getv %tmp.123 :FONT_TINY;
+                putv self :font %tmp.124;
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 148; @position = 18; ]
+            const justification;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 149; @position = 18; ]
+            const font;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 152; ]
+        module confirmation_loc__body {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 152; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 153; @position = 18; ]
+            const x as Number = 85;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 154; @position = 18; ]
+            const y as Number = 83;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 157; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 157; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 158; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 161; ]
+        module prompt_color_dark__background {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 161; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 162; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 163; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 166; ]
+        module system_icon_destructive__hint_action_menu {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 166; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 167; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\system_icon_destructive__hint_action_menu.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 168; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 169; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 172; ]
+        module system_loc__hint_action_menu {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 172; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 173; @position = 18; ]
+            const x as Number = 208;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 174; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 175; @position = 18; ]
+            const y as Number = 332;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 178; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 178; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 179; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\confirmation_icon__hint_completion.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 180; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 181; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 184; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 184; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 185; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 188; ]
+        module prompt_size__body_no_title {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 188; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 189; @position = 18; ]
+            const width as Number = 333;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 190; @position = 18; ]
+            const height as Number = 270;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 193; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 193; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 194; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 197; ]
+        module prompt_color_light__background {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 197; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 198; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 199; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 202; ]
+        module confirmation_input__delete {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 202; ]
+            <init> {
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen" 203 18 ]
+                %tmp.125 = getm $.Toybox.WatchUi;
+                %tmp.126 = getv %tmp.125 :KEY_ENTER;
+                putv self :button %tmp.126;
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 203; @position = 18; ]
+            const button;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 206; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 206; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 207; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 210; ]
+        module system_input__action_menu {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 210; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 211; @position = 18; ]
+            const y1 as Number = 338;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 212; @position = 18; ]
+            const x1 as Number = 0;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 213; @position = 18; ]
+            const y2 as Number = 390;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 214; @position = 18; ]
+            const x2 as Number = 390;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 217; ]
+        module system_icon_light__save {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 217; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 218; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\system_icon_light__save.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 219; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 220; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 221; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 222; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 225; ]
+        module prompt_color_light__body {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 225; ]
+            <init> {
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen" 227 18 ]
+                %tmp.127 = getm $.Toybox.Graphics;
+                %tmp.128 = getv %tmp.127 :COLOR_TRANSPARENT;
+                putv self :background %tmp.128;
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 226; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 227; @position = 18; ]
+            const background;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 230; ]
+        module system_loc__subwindow {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 230; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 231; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 234; ]
+        module system_icon_light__warning {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 234; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 235; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\system_icon_light__warning.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 236; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 237; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 238; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 239; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 242; ]
+        module confirmation_color_light__body {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 242; ]
+            <init> {
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen" 244 18 ]
+                %tmp.129 = getm $.Toybox.Graphics;
+                %tmp.130 = getv %tmp.129 :COLOR_TRANSPARENT;
+                putv self :background %tmp.130;
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 243; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 244; @position = 18; ]
+            const background;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 247; ]
+        module confirmation_icon_light__hint_keep {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 247; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 248; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\confirmation_icon__hint_keep.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 249; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 250; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 253; ]
+        module activity_color_light__background {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 253; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 254; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 255; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 258; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 258; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 259; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\system_icon_positive__hint_button_right_top.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 260; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 261; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 264; ]
+        module system_size__screen {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 264; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 265; @position = 18; ]
+            const width as Number = 416;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 266; @position = 18; ]
+            const height as Number = 416;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 269; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 269; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 270; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\system_icon_destructive__hint_button_right_bottom.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 271; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 272; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 275; ]
+        module system_color_light__background {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 275; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 276; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 277; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 280; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 280; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 281; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 282; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 283; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 286; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 286; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 287; @position = 18; ]
+            const x as Number = 208;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 288; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 289; @position = 18; ]
+            const y as Number = 317;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 292; ]
+        module activity_color_dark__text {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 292; ]
+            <init> {
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen" 294 18 ]
+                %tmp.131 = getm $.Toybox.Graphics;
+                %tmp.132 = getv %tmp.131 :COLOR_TRANSPARENT;
+                putv self :background %tmp.132;
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 293; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 294; @position = 18; ]
+            const background;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 297; ]
+        module confirmation_input__keep {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 297; ]
+            <init> {
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen" 298 18 ]
+                %tmp.133 = getm $.Toybox.WatchUi;
+                %tmp.134 = getv %tmp.133 :KEY_ESC;
+                putv self :button %tmp.134;
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 298; @position = 18; ]
+            const button;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 301; ]
+        module prompt_loc__body_with_title {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 301; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 302; @position = 18; ]
+            const x as Number = 42;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 303; @position = 18; ]
+            const y as Number = 104;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 306; ]
+        module system_icon_dark__search {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 306; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 307; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\system_icon_dark__search.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 308; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 309; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 310; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 311; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 314; ]
+        module activity_color_light__text {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 314; ]
+            <init> {
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen" 316 18 ]
+                %tmp.135 = getm $.Toybox.Graphics;
+                %tmp.136 = getv %tmp.135 :COLOR_TRANSPARENT;
+                putv self :background %tmp.136;
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 315; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 316; @position = 18; ]
+            const background;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 319; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 319; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 320; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\confirmation_icon__hint_keep.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 321; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 322; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 325; ]
+        module system_icon_dark__save {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 325; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 326; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\system_icon_dark__save.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 327; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 328; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 329; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 330; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 333; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 333; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 334; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 337; ]
+        module system_icon_light__search {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 337; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 338; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\system_icon_light__search.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 339; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 340; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 341; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 342; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 345; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 345; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 346; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 349; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 349; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 350; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 353; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 353; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 354; @position = 18; ]
+            const x as Number = 332;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 355; @position = 18; ]
+            const y as Number = 258;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 358; ]
+        module confirmation_icon_dark__hint_reject {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 358; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 359; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\confirmation_icon__hint_reject.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 360; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 361; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 364; ]
+        module confirmation_color_dark__body {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 364; ]
+            <init> {
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen" 366 18 ]
+                %tmp.137 = getm $.Toybox.Graphics;
+                %tmp.138 = getv %tmp.137 :COLOR_TRANSPARENT;
+                putv self :background %tmp.138;
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 365; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 366; @position = 18; ]
+            const background;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 369; ]
+        module confirmation_icon_light__hint_confirm {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 369; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 370; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\confirmation_icon__hint_completion.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 371; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 372; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 375; ]
+        module prompt_color_dark__title {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 375; ]
+            <init> {
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen" 377 18 ]
+                %tmp.139 = getm $.Toybox.Graphics;
+                %tmp.140 = getv %tmp.139 :COLOR_TRANSPARENT;
+                putv self :background %tmp.140;
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 376; @position = 18; ]
+            const color as Number = 0xB3B3B3;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 377; @position = 18; ]
+            const background;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 380; ]
+        module system_icon_destructive__cancel {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 380; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 381; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\system_icon_destructive__cancel.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 382; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 383; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 386; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 386; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 387; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\system_icon_light__hint_button_right_bottom.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 388; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 389; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 392; ]
+        module prompt_loc__title {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 392; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 393; @position = 18; ]
+            const x as Number = 120;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 394; @position = 18; ]
+            const y as Number = 20;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 397; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 397; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 398; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 401; ]
+        module prompt_color_light__title {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 401; ]
+            <init> {
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen" 403 18 ]
+                %tmp.141 = getm $.Toybox.Graphics;
+                %tmp.142 = getv %tmp.141 :COLOR_TRANSPARENT;
+                putv self :background %tmp.142;
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 402; @position = 18; ]
+            const color as Number = 0xB3B3B3;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 403; @position = 18; ]
+            const background;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 406; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 406; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 407; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\system_icon_dark__hint_button_right_top.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 408; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 409; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 412; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 412; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 413; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 416; ]
+        module confirmation_icon_dark__hint_keep {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 416; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 417; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\confirmation_icon__hint_keep.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 418; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 419; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 422; ]
+        module system_icon_light__cancel {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 422; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 423; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\system_icon_light__cancel.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 424; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 425; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 426; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 427; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 430; ]
+        module confirmation_icon_light__hint_reject {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 430; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 431; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\confirmation_icon__hint_reject.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 432; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 433; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 436; ]
+        module system_icon_light__about {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 436; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 437; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\system_icon_light__about.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 438; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 439; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 440; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 441; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 444; ]
+        module system_size__toast_icon {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 444; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 445; @position = 18; ]
+            const scaleX as Number = 56;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 446; @position = 18; ]
+            const scaleY as Number = 56;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 447; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 450; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 450; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 451; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 454; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 454; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 455; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\confirmation_icon__hint_reject.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 456; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 457; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 460; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 460; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 461; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\system_icon_light__hint_action_menu.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 462; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 463; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 466; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 466; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 467; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 470; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 470; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 471; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 474; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 474; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 475; @position = 18; ]
+            const x as Number = 208;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 476; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 477; @position = 18; ]
+            const y as Number = 0;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 480; ]
+        module confirmation_icon_dark__hint_delete {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 480; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 481; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\confirmation_icon__hint_delete.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 482; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 483; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 486; ]
+        module activity_color_dark__background {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 486; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 487; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 488; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 491; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 491; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 492; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 495; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 495; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 496; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 499; ]
+        module system_size__menu_icon {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 499; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 500; @position = 18; ]
+            const scaleX as Number = 45;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 501; @position = 18; ]
+            const scaleY as Number = 45;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 502; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 505; ]
+        module system_icon_destructive__warning {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 505; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 506; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\system_icon_destructive__warning.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 507; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 508; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 511; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 511; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 512; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 515; ]
+        module system_icon_dark__cancel {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 515; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 516; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\system_icon_dark__cancel.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 517; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 518; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 519; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 520; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 523; ]
+        module prompt_size__body_with_title {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 523; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 524; @position = 18; ]
+            const width as Number = 333;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 525; @position = 18; ]
+            const height as Number = 229;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 528; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 528; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 529; @position = 18; ]
+            const x as Number = 345;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 530; @position = 18; ]
+            const y as Number = 67;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 533; ]
+        module system_color_light__text {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 533; ]
+            <init> {
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen" 535 18 ]
+                %tmp.143 = getm $.Toybox.Graphics;
+                %tmp.144 = getv %tmp.143 :COLOR_TRANSPARENT;
+                putv self :background %tmp.144;
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 534; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 535; @position = 18; ]
+            const background;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 538; ]
+        module system_icon_light__check {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 538; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 539; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\system_icon_light__check.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 540; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 541; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 542; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 543; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 546; ]
+        module confirmation_input__reject {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 546; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 547; @position = 18; ]
+            const y1 as Number = 0;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 548; @position = 18; ]
+            const x1 as Number = 79;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 549; @position = 18; ]
+            const y2 as Number = 70;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 550; @position = 18; ]
+            const x2 as Number = 311;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 553; ]
+        module system_icon_light__revert {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 553; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 554; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\system_icon_light__revert.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 555; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 556; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 557; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 558; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 561; ]
+        module system_size__subwindow {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 561; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 562; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 565; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 565; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 566; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 569; ]
+        module system_icon_dark__check {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 569; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 570; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\system_icon_dark__check.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 571; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 572; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 573; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 574; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 577; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 577; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 578; @position = 18; ]
+            const x as Number = 313;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 579; @position = 18; ]
+            const y as Number = 234;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 582; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 582; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 583; @position = 18; ]
+            const x as Number = 324;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 584; @position = 18; ]
+            const y as Number = 19;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 587; ]
+        module system_icon_positive__hint_action_menu {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 587; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 588; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\system_icon_positive__hint_action_menu.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 589; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 590; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 593; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 593; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 594; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 597; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 597; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 598; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 601; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 601; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 602; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 603; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 604; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 607; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 607; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 608; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\system_icon_positive__hint_button_right_bottom.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 609; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 610; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 613; ]
+        module system_icon_dark__revert {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 613; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 614; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\system_icon_dark__revert.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 615; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 616; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 617; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 618; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 621; ]
+        module confirmation_icon_light__hint_delete {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 621; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 622; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\confirmation_icon__hint_delete.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 623; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 624; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 627; ]
+        module system_icon_dark__question {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 627; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 628; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\system_icon_dark__question.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 629; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 630; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 631; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 632; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 635; ]
+        module system_icon_light__discard {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 635; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 636; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\system_icon_light__discard.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 637; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 638; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 639; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 640; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 643; ]
+        module device_info {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 643; ]
+            <init> {
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen" 645 18 ]
+                %tmp.145 = getm $.Toybox.System;
+                %tmp.146 = getv %tmp.145 :SCREEN_SHAPE_ROUND;
+                putv self :screenShape %tmp.146;
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 644; @position = 18; ]
+            const screenWidth as Number = 416;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 645; @position = 18; ]
+            const screenShape;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 646; @position = 18; ]
+            const hasNightMode as Boolean = false;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 647; @position = 18; ]
+            const screenHeight as Number = 416;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 648; @position = 18; ]
+            const hasTouchScreen as Boolean = true;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 649; @position = 18; ]
+            const hasEnhancedReadabilityMode as Boolean = false;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 652; ]
+        module confirmation_icon_dark__hint_confirm {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 652; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 653; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\confirmation_icon__hint_completion.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 654; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 655; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 658; ]
+        module prompt_font__body_no_title {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 658; ]
+            <init> {
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen" 659 18 ]
+                %tmp.147 = getm $.Toybox.Graphics;
+                %tmp.148 = getv %tmp.147 :TEXT_JUSTIFY_CENTER;
+                %tmp.149 = getm $.Toybox.Graphics;
+                %tmp.150 = getv %tmp.149 :TEXT_JUSTIFY_VCENTER;
+                %tmp.151 = bitor %tmp.148 %tmp.150;
+                putv self :justification %tmp.151;
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen" 660 18 ]
+                %tmp.152 = getm $.Toybox.Graphics;
+                %tmp.153 = getv %tmp.152 :FONT_TINY;
+                putv self :font %tmp.153;
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 659; @position = 18; ]
+            const justification;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 660; @position = 18; ]
+            const font;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 663; ]
+        module prompt_size__title_icon {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 663; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 664; @position = 18; ]
+            const scaleX as Float = 0.12;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 665; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 668; ]
+        module system_icon_dark__warning {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 668; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 669; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\system_icon_dark__warning.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 670; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 671; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 672; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 673; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 676; ]
+        module prompt_loc__title_icon {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 676; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 677; @position = 18; ]
+            const x as Number = 208;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 678; @position = 18; ]
+            const y as Number = 42;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 679; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 680; @position = 18; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 683; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 683; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 684; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 687; ]
+        module prompt_color_dark__body {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 687; ]
+            <init> {
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen" 689 18 ]
+                %tmp.154 = getm $.Toybox.Graphics;
+                %tmp.155 = getv %tmp.154 :COLOR_TRANSPARENT;
+                putv self :background %tmp.155;
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 688; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 689; @position = 18; ]
+            const background;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 692; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 692; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 693; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\confirmation_icon__hint_delete.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 694; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 695; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 698; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 698; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 699; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\system_icon_light__hint_button_right_top.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 700; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 701; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 704; ]
+        module confirmation_size__body {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 704; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 705; @position = 18; ]
+            const width as Number = 246;
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 706; @position = 18; ]
+            const height as Number = 250;
+        }
+        [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 709; ]
+        module system_icon_positive__check {
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 709; ]
+            <init> {
+            }
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 710; @position = 18; ]
+            const filename as String = "C:\\Users\\ethan\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\venu2\\system_icon_positive__check.svg";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 711; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 712; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+    }
 }
-[ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B2691-00\source\Rez.mcgen"; @line = 1; ]
+[ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\bin\gen\006-B3703-00\source\Rez.mcgen"; @line = 1; ]
 <init> {
 }

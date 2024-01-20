@@ -1,0 +1,36 @@
+import Toybox.Lang;
+using Toybox.WatchUi;
+using Toybox.WatchUi as Ui;
+using Toybox.Graphics;
+using Toybox.Graphics as Gfx;
+
+module Rez {
+    module Drawables {
+        (:initialized) var heart_icon as Symbol;
+        (:initialized) var LauncherIcon as Symbol;
+    } // Drawables
+
+    module Fonts {
+    } // Fonts
+
+    module JsonData {
+    } // JsonData
+
+    module Layouts {
+        function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_bitmap_heart_icon = new WatchUi.Bitmap({:identifier=>"heart_icon", :rezId=>$.Rez.Drawables.heart_icon, :locX=>WatchUi.LAYOUT_HALIGN_CENTER, :locY=>(148 * (30 / 100.0))});
+            rez_cmp_local_bitmap_heart_icon.setLocation(((205 - rez_cmp_local_bitmap_heart_icon.width) * 0.5), (148 * (30 / 100.0)));
+
+            var rez_cmp_local_text_heart_rate = new WatchUi.Text({:identifier=>"heart_rate", :color=>Gfx.COLOR_GREEN, :locX=>(205 * 0.5), :locY=>(148 * (50 / 100.0)), :text=>"50 BPM", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_LARGE});
+
+            return [rez_cmp_local_bitmap_heart_icon, rez_cmp_local_text_heart_rate] as Array<WatchUi.Drawable>;
+        }
+    } // Layouts
+
+    module Menus {
+    } // Menus
+
+    module Strings {
+        (:initialized) var AppName as Symbol;
+    } // Strings
+} // Rez
