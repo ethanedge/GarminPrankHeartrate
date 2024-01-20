@@ -21,6 +21,7 @@ class PrankHeartRateView extends WatchUi.View {
 
     private var _measuringLabel = "Measuring";
     private var _measuringCount = 0;
+    private var _measuringTime = getRandNum(6, 13);
 
     private var myTimer = new Timer.Timer();
 
@@ -71,7 +72,7 @@ class PrankHeartRateView extends WatchUi.View {
         _heartRateElement.setColor(Graphics.COLOR_WHITE);
 
         WatchUi.requestUpdate();
-        
+
         if (_measuringLabel.length() == 12) {
             _measuringLabel = "Measuring";
         } else {
@@ -80,7 +81,7 @@ class PrankHeartRateView extends WatchUi.View {
 
         // To stop measuring
         // AFTER TIMER LOGIC IS CURRENTLY HERE - THIS NEEDS TO BE ADJUSTED AT SOME POINT
-        if (_measuringCount > 11) {
+        if (_measuringCount > _measuringTime) {
             myTimer.stop();
 
             _heartRate = chooseStartValue();        
