@@ -18,7 +18,11 @@ class PrankHeartRateView extends WatchUi.View {
 
     private var _heartRateElement;
     private var _heartRate;
+
     private var _measuringLabel = "Measuring";
+    private var _measuringCount = 0;
+
+    private var myTimer = new Timer.Timer();
 
 
     function initialize() {
@@ -30,12 +34,8 @@ class PrankHeartRateView extends WatchUi.View {
         setLayout(Rez.Layouts.MainLayout(dc));
 
         _heartRateElement = findDrawableById("heart_rate");
-        measuringHeartRateEachSecond();
-        //_heartRate = chooseStartValue();
-        
 
-        //var _timer = new Timer.Timer();
-        //_timer.start(method(:incrementHeartRate), 2000, true);
+        masterControl();
     }
 
     // Called when this View is brought to the foreground. Restore
@@ -56,25 +56,38 @@ class PrankHeartRateView extends WatchUi.View {
     function onHide() as Void {
     }
 
-    // Calls measuringHeartRate() each second
-    function measuringHeartRateEachSecond() {
-        measuringHeartRate();
-        var myTimer = new Timer.Timer();
-        myTimer.start(method(:measuringHeartRate), 1000, true);
+    // Calls measuringHeartRate() each second to display the measuring text
+    // Then goes onto displaying the heart rate
+    function masterControl() {
+        measuringHeartRate();        
+        myTimer.start(method(:measuringHeartRate), 1000, true); // can I pass variables in through this method?
     }
 
-    // Displays the 'Measuring...' loading text, adding and removing dots
+    // Displays the 'Measuring...' loading text, adding and removing dots to simulate 'loading'
     function measuringHeartRate() as Void {
+        _measuringCount++;
+
         _heartRateElement.setText(_measuringLabel);
         _heartRateElement.setColor(Graphics.COLOR_WHITE);
 
         WatchUi.requestUpdate();
+        
         if (_measuringLabel.length() == 12) {
             _measuringLabel = "Measuring";
         } else {
             _measuringLabel += ".";
         }
-        
+
+        // To stop measuring
+        // AFTER TIMER LOGIC IS CURRENTLY HERE - THIS NEEDS TO BE ADJUSTED AT SOME POINT
+        if (_measuringCount > 11) {
+            myTimer.stop();
+
+            _heartRate = chooseStartValue();        
+            
+            var _timer = new Timer.Timer();
+            _timer.start(method(:incrementHeartRate), 2000, true);
+        }       
     }
     
 

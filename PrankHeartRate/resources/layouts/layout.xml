@@ -3,24 +3,14 @@
         id="heart_icon"
         filename="../drawables/heart-icon.png"
         x="center"
-        y="20%" 
+        y="30%" 
     />
 
     <label
         id="heart_rate"
         text="50 BPM"
         x="center"
-        y="center" 
-        font="Gfx.FONT_LARGE"
-        color="Gfx.COLOR_GREEN"
-        justification="Gfx.TEXT_JUSTIFY_CENTER"
-    />
-
-    <label
-        id="warning"
-        text=""
-        x="center"
-        y="60%" 
+        y="50%" 
         font="Gfx.FONT_LARGE"
         color="Gfx.COLOR_GREEN"
         justification="Gfx.TEXT_JUSTIFY_CENTER"

@@ -10,6 +10,11 @@ import Toybox.Timer;
 class PrankHeartRateView extends WatchUi.View{
     [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc"; @line = 6; ]
     <init> {
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 25 16 ]
+        %tmp.3 = getm $.Toybox.Timer;
+        %tmp.4 = getv function ? %tmp.3 :Timer;
+        %tmp.1 = newc %tmp.4 ();
+        putv self :myTimer %tmp.1;
     }
     [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc"; @line = 6; ]
     static
@@ -31,22 +36,28 @@ class PrankHeartRateView extends WatchUi.View{
     [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc"; @line = 20; @position = 16; ]
     private
     var _heartRate;
-    [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc"; @line = 21; @position = 16; ]
+    [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc"; @line = 22; @position = 16; ]
     private
     var _measuringLabel = "Measuring";
-    [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc"; @line = 24; ]
+    [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc"; @line = 23; @position = 16; ]
+    private
+    var _measuringCount = 0;
+    [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc"; @line = 25; @position = 16; ]
+    private
+    var myTimer;
+    [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc"; @line = 28; ]
     function initialize() as Void {
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_24_26_start:
-[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 25 8 ]
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_28_26_start:
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 29 8 ]
         %tmp.2 = getv ? :View;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_24_26_stop:
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_28_26_stop:
     }
-    [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc"; @line = 29; ]
+    [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc"; @line = 33; ]
     function onLayout(dc as Dc) as Void {
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_29_40_start:
-[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 30 8 ]
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_33_40_start:
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 34 8 ]
         %tmp.1 = self;
         %tmp.2 = getv function %tmp.1 :setLayout;
         %tmp.4 = getv ? :Rez;
@@ -55,17 +66,17 @@ Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_
         %tmp.8 = lgetv %dc;
         %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
         invoke %tmp.1 %tmp.2(%tmp.9);
-[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 32 8 ]
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 36 8 ]
         %tmp.10 = self;
         %tmp.11 = getv function %tmp.10 :findDrawableById;
         %tmp.12 = "heart_rate";
         %tmp.13 = invoke %tmp.10 %tmp.11(%tmp.12);
         putv self :_heartRateElement %tmp.13;
-[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 33 8 ]
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 38 8 ]
         %tmp.14 = self;
-        %tmp.15 = getv function %tmp.14 :measuringHeartRateEachSecond;
+        %tmp.15 = getv function %tmp.14 :masterControl;
         invoke %tmp.14 %tmp.15();
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_29_40_stop:
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_33_40_stop:
     }
     [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc"; @line = 44; ]
     function onShow() as Void {
@@ -83,81 +94,115 @@ Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_
     [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc"; @line = 56; ]
     function onHide() as Void {
     }
-    [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc"; @line = 60; ]
-    function measuringHeartRateEachSecond() {
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_60_44_start:
-[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 61 8 ]
+    [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc"; @line = 61; ]
+    function masterControl() {
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_61_29_start:
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 62 8 ]
         %tmp.1 = self;
         %tmp.2 = getv function %tmp.1 :measuringHeartRate;
         invoke %tmp.1 %tmp.2();
-[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 62 8 ]
-        [ "Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_60_44_start" "Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_60_44_stop" ]
-        %myTimer.1 = local;
-        %tmp.5 = getm $.Toybox.Timer;
-        %tmp.6 = getv function ? %tmp.5 :Timer;
-        %tmp.3 = newc %tmp.6 ();
-        lputv %myTimer.1 %tmp.3;
 [ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 63 8 ]
-        %tmp.7 = lgetv %myTimer.1;
-        %tmp.8 = getv function %tmp.7 :start;
-        %tmp.9 = self;
-        %tmp.10 = getv function %tmp.9 :method;
-        %tmp.12 = const :measuringHeartRate;
-        %tmp.13 = invoke %tmp.9 %tmp.10(%tmp.12);
-        %tmp.14 = 1000;
-        %tmp.15 = true;
-        invoke %tmp.7 %tmp.8(%tmp.13, %tmp.14, %tmp.15);
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_60_44_stop:
+        %tmp.4 = getv ? :myTimer;
+        %tmp.5 = getv function %tmp.4 :start;
+        %tmp.6 = self;
+        %tmp.7 = getv function %tmp.6 :method;
+        %tmp.9 = const :measuringHeartRate;
+        %tmp.10 = invoke %tmp.6 %tmp.7(%tmp.9);
+        %tmp.11 = 1000;
+        %tmp.12 = true;
+        invoke %tmp.4 %tmp.5(%tmp.10, %tmp.11, %tmp.12);
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_61_29_stop:
     }
     [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc"; @line = 67; ]
     function measuringHeartRate() as Void {
 Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_67_42_start:
 [ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 68 8 ]
-        %tmp.2 = getv ? :_heartRateElement;
-        %tmp.3 = getv function %tmp.2 :setText;
-        %tmp.5 = getv ? :_measuringLabel;
-        invoke %tmp.2 %tmp.3(%tmp.5);
-[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 69 8 ]
-        %tmp.7 = getv ? :_heartRateElement;
-        %tmp.8 = getv function %tmp.7 :setColor;
-        %tmp.9 = getm $.Toybox.Graphics;
-        %tmp.10 = getv %tmp.9 :COLOR_WHITE;
-        invoke %tmp.7 %tmp.8(%tmp.10);
+        %tmp.3 = getv ? :_measuringCount;
+        %tmp.4 = add %tmp.3 1;
+        putv self :_measuringCount dup %tmp.4;
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 70 8 ]
+        %tmp.6 = getv ? :_heartRateElement;
+        %tmp.7 = getv function %tmp.6 :setText;
+        %tmp.9 = getv ? :_measuringLabel;
+        invoke %tmp.6 %tmp.7(%tmp.9);
 [ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 71 8 ]
-        %tmp.11 = getm $.Toybox.WatchUi;
-        %tmp.12 = getv function %tmp.11 :requestUpdate;
-        invoke %tmp.11 %tmp.12();
-[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 72 8 ]
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_72_8_if_stmt:
-        %tmp.14 = getv ? :_measuringLabel;
-        %tmp.15 = getv function %tmp.14 :length;
-        %tmp.16 = invoke %tmp.14 %tmp.15();
-        %tmp.17 = 12;
-        %tmp.18 = eq %tmp.16 %tmp.17;
-        bf %tmp.18 @Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_72_8_if_false;
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_72_8_if_true:
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_72_44_start:
-[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 73 12 ]
-        %tmp.19 = "Measuring";
-        putv self :_measuringLabel %tmp.19;
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_72_44_stop:
-        goto @Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_72_8_if_end;
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_72_8_if_false:
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_74_15_start:
-[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 75 12 ]
-        %tmp.20 = getv self :_measuringLabel;
-        %tmp.21 = ".";
-        %tmp.22 = add %tmp.20 %tmp.21;
-        putv self :_measuringLabel dup %tmp.22;
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_74_15_stop:
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_72_8_if_end:
+        %tmp.11 = getv ? :_heartRateElement;
+        %tmp.12 = getv function %tmp.11 :setColor;
+        %tmp.13 = getm $.Toybox.Graphics;
+        %tmp.14 = getv %tmp.13 :COLOR_WHITE;
+        invoke %tmp.11 %tmp.12(%tmp.14);
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 73 8 ]
+        %tmp.15 = getm $.Toybox.WatchUi;
+        %tmp.16 = getv function %tmp.15 :requestUpdate;
+        invoke %tmp.15 %tmp.16();
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 75 8 ]
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_75_8_if_stmt:
+        %tmp.18 = getv ? :_measuringLabel;
+        %tmp.19 = getv function %tmp.18 :length;
+        %tmp.20 = invoke %tmp.18 %tmp.19();
+        %tmp.21 = 12;
+        %tmp.22 = eq %tmp.20 %tmp.21;
+        bf %tmp.22 @Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_75_8_if_false;
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_75_8_if_true:
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_75_44_start:
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 76 12 ]
+        %tmp.23 = "Measuring";
+        putv self :_measuringLabel %tmp.23;
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_75_44_stop:
+        goto @Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_75_8_if_end;
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_75_8_if_false:
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_77_15_start:
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 78 12 ]
+        %tmp.24 = getv self :_measuringLabel;
+        %tmp.25 = ".";
+        %tmp.26 = add %tmp.24 %tmp.25;
+        putv self :_measuringLabel dup %tmp.26;
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_77_15_stop:
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_75_8_if_end:
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 83 8 ]
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_83_8_if_stmt:
+        %tmp.28 = getv ? :_measuringCount;
+        %tmp.29 = 11;
+        %tmp.30 = gt %tmp.28 %tmp.29;
+        bf %tmp.30 @Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_83_8_if_end;
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_83_8_if_true:
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_83_34_start:
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 84 12 ]
+        %tmp.32 = getv ? :myTimer;
+        %tmp.33 = getv function %tmp.32 :stop;
+        invoke %tmp.32 %tmp.33();
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 86 12 ]
+        %tmp.34 = self;
+        %tmp.35 = getv function %tmp.34 :chooseStartValue;
+        %tmp.36 = invoke %tmp.34 %tmp.35();
+        putv self :_heartRate %tmp.36;
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 88 12 ]
+        [ "Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_83_34_start" "Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_83_34_stop" ]
+        %_timer.1 = local;
+        %tmp.39 = getm $.Toybox.Timer;
+        %tmp.40 = getv function ? %tmp.39 :Timer;
+        %tmp.37 = newc %tmp.40 ();
+        lputv %_timer.1 %tmp.37;
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 89 12 ]
+        %tmp.41 = lgetv %_timer.1;
+        %tmp.42 = getv function %tmp.41 :start;
+        %tmp.43 = self;
+        %tmp.44 = getv function %tmp.43 :method;
+        %tmp.46 = const :incrementHeartRate;
+        %tmp.47 = invoke %tmp.43 %tmp.44(%tmp.46);
+        %tmp.48 = 2000;
+        %tmp.49 = true;
+        invoke %tmp.41 %tmp.42(%tmp.47, %tmp.48, %tmp.49);
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_83_34_stop:
+        goto @Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_83_8_if_end;
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_83_8_if_end:
 Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_67_42_stop:
     }
-    [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc"; @line = 82; ]
+    [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc"; @line = 95; ]
     function chooseStartValue() {
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_82_32_start:
-[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 84 8 ]
-        [ "Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_82_32_start" "Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_82_32_stop" ]
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_95_32_start:
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 97 8 ]
+        [ "Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_95_32_start" "Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_95_32_stop" ]
         %_heartRate.1 = local;
         %tmp.1 = self;
         %tmp.2 = getv function %tmp.1 :getRandNum;
@@ -165,21 +210,21 @@ Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_
         %tmp.6 = getv ? :HIGH_START;
         %tmp.7 = invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
         lputv %_heartRate.1 %tmp.7;
-[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 86 8 ]
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 99 8 ]
         %tmp.8 = self;
         %tmp.9 = getv function %tmp.8 :displayHeartRate;
         %tmp.11 = lgetv %_heartRate.1;
         invoke %tmp.8 %tmp.9(%tmp.11);
-[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 87 8 ]
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 100 8 ]
         %tmp.13 = lgetv %_heartRate.1;
         ret %tmp.13;
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_82_32_stop:
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_95_32_stop:
     }
-    [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc"; @line = 91; ]
+    [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc"; @line = 104; ]
     function getRandNum(low, high) {
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_91_35_start:
-[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 93 8 ]
-        [ "Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_91_35_start" "Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_91_35_stop" ]
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_104_35_start:
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 106 8 ]
+        [ "Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_104_35_start" "Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_104_35_stop" ]
         %value.1 = local;
         %tmp.2 = lgetv %low;
         %tmp.3 = getm $.Toybox.Math;
@@ -197,16 +242,16 @@ Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_
         %tmp.18 = div %tmp.5 %tmp.17;
         %tmp.19 = add %tmp.2 %tmp.18;
         lputv %value.1 %tmp.19;
-[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 94 8 ]
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 107 8 ]
         %tmp.21 = lgetv %value.1;
         ret %tmp.21;
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_91_35_stop:
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_104_35_stop:
     }
-    [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc"; @line = 99; ]
+    [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc"; @line = 112; ]
     function incrementHeartRate() as Void {
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_99_42_start:
-[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 100 8 ]
-        [ "Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_99_42_start" "Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_99_42_stop" ]
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_112_42_start:
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 113 8 ]
+        [ "Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_112_42_start" "Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_112_42_stop" ]
         %increment.1 = local;
         %tmp.1 = self;
         %tmp.2 = getv function %tmp.1 :getRandNum;
@@ -214,125 +259,125 @@ Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_
         %tmp.6 = getv ? :HIGH_INCREMENT;
         %tmp.7 = invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
         lputv %increment.1 %tmp.7;
-[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 102 8 ]
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 115 8 ]
         %tmp.8 = getv self :_heartRate;
         %tmp.10 = lgetv %increment.1;
         %tmp.11 = add %tmp.8 %tmp.10;
         putv self :_heartRate dup %tmp.11;
-[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 103 8 ]
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 116 8 ]
         %tmp.12 = self;
         %tmp.13 = getv function %tmp.12 :displayHeartRate;
         %tmp.15 = getv ? :_heartRate;
         invoke %tmp.12 %tmp.13(%tmp.15);
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_99_42_stop:
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_112_42_stop:
     }
-    [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc"; @line = 108; ]
+    [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc"; @line = 121; ]
     function displayHeartRate(_heartRate) {
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_108_42_start:
-[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 109 8 ]
-        [ "Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_108_42_start" "Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_108_42_stop" ]
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_121_42_start:
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 122 8 ]
+        [ "Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_121_42_start" "Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_121_42_stop" ]
         %label.1 = local;
-[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 110 8 ]
-        [ "Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_108_42_start" "Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_108_42_stop" ]
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 123 8 ]
+        [ "Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_121_42_start" "Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_121_42_stop" ]
         %color.2 = local;
-[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 112 8 ]
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_112_8_if_stmt:
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 125 8 ]
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_125_8_if_stmt:
         %tmp.2 = lgetv %_heartRate;
         %tmp.3 = 100;
         %tmp.4 = lt %tmp.2 %tmp.3;
-        bf %tmp.4 @Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_112_8_if_false;
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_112_8_if_true:
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_112_30_start:
-[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 113 12 ]
+        bf %tmp.4 @Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_125_8_if_false;
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_125_8_if_true:
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_125_30_start:
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 126 12 ]
         %tmp.5 = getm $.Toybox.Graphics;
         %tmp.6 = getv %tmp.5 :COLOR_DK_GREEN;
         lputv %color.2 %tmp.6;
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_112_30_stop:
-        goto @Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_112_8_if_end;
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_112_8_if_false:
-[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 115 13 ]
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_115_13_if_stmt:
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_115_17_begin:
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_125_30_stop:
+        goto @Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_125_8_if_end;
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_125_8_if_false:
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 128 13 ]
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_128_13_if_stmt:
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_128_17_begin:
         %tmp.8 = lgetv %_heartRate;
         %tmp.9 = 100;
         %tmp.10 = gte %tmp.8 %tmp.9;
         %tmp.11 = dup %tmp.10;
-        bf %tmp.11 @Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_115_39_end;
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_115_39_true:
+        bf %tmp.11 @Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_128_39_end;
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_128_39_true:
         %tmp.13 = lgetv %_heartRate;
         %tmp.14 = 125;
         %tmp.15 = lte %tmp.13 %tmp.14;
         %tmp.16 = and %tmp.10 %tmp.15;
         push %tmp.16;
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_115_39_end:
-        %tmp.17 = phi [%tmp.11 @Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_115_17_begin] [%tmp.16 @Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_115_39_true] [%tmp.17 @Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_115_39_end];
-        bf %tmp.17 @Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_115_13_if_false;
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_115_13_if_true:
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_115_58_start:
-[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 116 12 ]
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_128_39_end:
+        %tmp.17 = phi [%tmp.11 @Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_128_17_begin] [%tmp.16 @Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_128_39_true] [%tmp.17 @Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_128_39_end];
+        bf %tmp.17 @Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_128_13_if_false;
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_128_13_if_true:
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_128_58_start:
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 129 12 ]
         %tmp.18 = getm $.Toybox.Graphics;
         %tmp.19 = getv %tmp.18 :COLOR_YELLOW;
         lputv %color.2 %tmp.19;
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_115_58_stop:
-        goto @Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_115_13_if_end;
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_115_13_if_false:
-[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 118 13 ]
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_118_13_if_stmt:
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_118_17_begin:
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_128_58_stop:
+        goto @Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_128_13_if_end;
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_128_13_if_false:
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 131 13 ]
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_131_13_if_stmt:
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_131_17_begin:
         %tmp.21 = lgetv %_heartRate;
         %tmp.22 = 125;
         %tmp.23 = gt %tmp.21 %tmp.22;
         %tmp.24 = dup %tmp.23;
-        bf %tmp.24 @Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_118_38_end;
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_118_38_true:
+        bf %tmp.24 @Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_131_38_end;
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_131_38_true:
         %tmp.26 = lgetv %_heartRate;
         %tmp.27 = 150;
         %tmp.28 = lte %tmp.26 %tmp.27;
         %tmp.29 = and %tmp.23 %tmp.28;
         push %tmp.29;
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_118_38_end:
-        %tmp.30 = phi [%tmp.24 @Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_118_17_begin] [%tmp.29 @Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_118_38_true] [%tmp.30 @Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_118_38_end];
-        bf %tmp.30 @Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_118_13_if_false;
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_118_13_if_true:
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_118_57_start:
-[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 119 12 ]
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_131_38_end:
+        %tmp.30 = phi [%tmp.24 @Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_131_17_begin] [%tmp.29 @Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_131_38_true] [%tmp.30 @Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_131_38_end];
+        bf %tmp.30 @Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_131_13_if_false;
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_131_13_if_true:
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_131_57_start:
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 132 12 ]
         %tmp.31 = getm $.Toybox.Graphics;
         %tmp.32 = getv %tmp.31 :COLOR_ORANGE;
         lputv %color.2 %tmp.32;
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_118_57_stop:
-        goto @Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_118_13_if_end;
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_118_13_if_false:
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_121_13_start:
-[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 122 12 ]
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_131_57_stop:
+        goto @Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_131_13_if_end;
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_131_13_if_false:
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_134_13_start:
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 135 12 ]
         %tmp.33 = getm $.Toybox.Graphics;
         %tmp.34 = getv %tmp.33 :COLOR_RED;
         lputv %color.2 %tmp.34;
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_121_13_stop:
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_118_13_if_end:
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_115_13_if_end:
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_112_8_if_end:
-[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 125 8 ]
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_134_13_stop:
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_131_13_if_end:
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_128_13_if_end:
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_125_8_if_end:
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 138 8 ]
         %tmp.35 = lgetv %_heartRate;
         %tmp.36 = getv function %tmp.35 :toString;
         %tmp.37 = invoke %tmp.35 %tmp.36();
         %tmp.38 = " BPM";
         %tmp.39 = add %tmp.37 %tmp.38;
         lputv %label.1 %tmp.39;
-[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 127 8 ]
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 140 8 ]
         %tmp.41 = getv ? :_heartRateElement;
         %tmp.42 = getv function %tmp.41 :setText;
         %tmp.44 = lgetv %label.1;
         invoke %tmp.41 %tmp.42(%tmp.44);
-[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 128 8 ]
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 141 8 ]
         %tmp.46 = getv ? :_heartRateElement;
         %tmp.47 = getv function %tmp.46 :setColor;
         %tmp.49 = lgetv %color.2;
         invoke %tmp.46 %tmp.47(%tmp.49);
-[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 130 8 ]
+[ "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc" 143 8 ]
         %tmp.50 = getm $.Toybox.WatchUi;
         %tmp.51 = getv function %tmp.50 :requestUpdate;
         invoke %tmp.50 %tmp.51();
-Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_108_42_stop:
+Z_Coding_Monkey_C_GarminPrankHeartrate_PrankHeartRate_source_PrankHeartRateView_mc_121_42_stop:
     }
 }
 [ @file = "Z:\Coding\Monkey C\GarminPrankHeartrate\PrankHeartRate\source\PrankHeartRateView.mc"; @line = 1; ]

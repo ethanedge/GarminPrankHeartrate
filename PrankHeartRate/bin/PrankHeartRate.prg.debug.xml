@@ -13,68 +13,74 @@
         <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateApp.mc" id="6" lineNum="8" parent="globals/PrankHeartRateApp" pc="268435577" symbol="initialize"/>
         <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateApp.mc" id="7" lineNum="16" parent="globals/PrankHeartRateApp" pc="268435596" symbol="onStop"/>
         <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="8" lineNum="6" parent="globals/PrankHeartRateView" pc="268435599" symbol="&lt;init&gt;"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="10" lineNum="108" parent="globals/PrankHeartRateView" pc="268435618" symbol="displayHeartRate"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="10" lineNum="110" parent="globals/PrankHeartRateView" pc="268435622" symbol="displayHeartRate"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="10" lineNum="112" parent="globals/PrankHeartRateView" pc="268435622" symbol="displayHeartRate"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="10" lineNum="109" parent="globals/PrankHeartRateView" pc="268435622" symbol="displayHeartRate"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="10" lineNum="113" parent="globals/PrankHeartRateView" pc="268435633" symbol="displayHeartRate"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="10" lineNum="115" parent="globals/PrankHeartRateView" pc="268435643" symbol="displayHeartRate"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="10" lineNum="116" parent="globals/PrankHeartRateView" pc="268435668" symbol="displayHeartRate"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="10" lineNum="118" parent="globals/PrankHeartRateView" pc="268435678" symbol="displayHeartRate"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="10" lineNum="119" parent="globals/PrankHeartRateView" pc="268435703" symbol="displayHeartRate"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="10" lineNum="122" parent="globals/PrankHeartRateView" pc="268435713" symbol="displayHeartRate"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="10" lineNum="125" parent="globals/PrankHeartRateView" pc="268435720" symbol="displayHeartRate"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="10" lineNum="127" parent="globals/PrankHeartRateView" pc="268435739" symbol="displayHeartRate"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="10" lineNum="128" parent="globals/PrankHeartRateView" pc="268435759" symbol="displayHeartRate"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="10" lineNum="130" parent="globals/PrankHeartRateView" pc="268435779" symbol="displayHeartRate"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="11" lineNum="29" parent="globals/PrankHeartRateView" pc="268435796" symbol="onLayout"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="11" lineNum="30" parent="globals/PrankHeartRateView" pc="268435798" symbol="onLayout"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="11" lineNum="32" parent="globals/PrankHeartRateView" pc="268435839" symbol="onLayout"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="11" lineNum="33" parent="globals/PrankHeartRateView" pc="268435863" symbol="onLayout"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="12" lineNum="67" parent="globals/PrankHeartRateView" pc="268435876" symbol="measuringHeartRate"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="12" lineNum="68" parent="globals/PrankHeartRateView" pc="268435878" symbol="measuringHeartRate"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="12" lineNum="69" parent="globals/PrankHeartRateView" pc="268435904" symbol="measuringHeartRate"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="12" lineNum="71" parent="globals/PrankHeartRateView" pc="268435927" symbol="measuringHeartRate"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="12" lineNum="72" parent="globals/PrankHeartRateView" pc="268435943" symbol="measuringHeartRate"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="12" lineNum="73" parent="globals/PrankHeartRateView" pc="268435969" symbol="measuringHeartRate"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="12" lineNum="75" parent="globals/PrankHeartRateView" pc="268435985" symbol="measuringHeartRate"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="13" lineNum="82" parent="globals/PrankHeartRateView" pc="268436005" symbol="chooseStartValue"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="13" lineNum="84" parent="globals/PrankHeartRateView" pc="268436009" symbol="chooseStartValue"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="13" lineNum="86" parent="globals/PrankHeartRateView" pc="268436032" symbol="chooseStartValue"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="13" lineNum="87" parent="globals/PrankHeartRateView" pc="268436046" symbol="chooseStartValue"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="14" lineNum="99" parent="globals/PrankHeartRateView" pc="268436049" symbol="incrementHeartRate"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="14" lineNum="100" parent="globals/PrankHeartRateView" pc="268436053" symbol="incrementHeartRate"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="14" lineNum="102" parent="globals/PrankHeartRateView" pc="268436076" symbol="incrementHeartRate"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="14" lineNum="103" parent="globals/PrankHeartRateView" pc="268436092" symbol="incrementHeartRate"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="15" lineNum="24" parent="globals/PrankHeartRateView" pc="268436113" symbol="initialize"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="15" lineNum="25" parent="globals/PrankHeartRateView" pc="268436115" symbol="initialize"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="17" lineNum="60" parent="globals/PrankHeartRateView" pc="268436134" symbol="measuringHeartRateEachSecond"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="17" lineNum="61" parent="globals/PrankHeartRateView" pc="268436138" symbol="measuringHeartRateEachSecond"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="17" lineNum="62" parent="globals/PrankHeartRateView" pc="268436150" symbol="measuringHeartRateEachSecond"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="17" lineNum="63" parent="globals/PrankHeartRateView" pc="268436178" symbol="measuringHeartRateEachSecond"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="18" lineNum="48" parent="globals/PrankHeartRateView" pc="268436214" symbol="onUpdate"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="18" lineNum="50" parent="globals/PrankHeartRateView" pc="268436216" symbol="onUpdate"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="19" lineNum="91" parent="globals/PrankHeartRateView" pc="268436237" symbol="getRandNum"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="19" lineNum="93" parent="globals/PrankHeartRateView" pc="268436241" symbol="getRandNum"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="19" lineNum="94" parent="globals/PrankHeartRateView" pc="268436285" symbol="getRandNum"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\bin\\gen\\006-B2691-00\\source\\Rez.mcgen" id="20" lineNum="21" parent="globals/Rez/Layouts" pc="268436288" symbol="MainLayout"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\bin\\gen\\006-B2691-00\\source\\Rez.mcgen" id="20" lineNum="22" parent="globals/Rez/Layouts" pc="268436300" symbol="MainLayout"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\bin\\gen\\006-B2691-00\\source\\Rez.mcgen" id="20" lineNum="23" parent="globals/Rez/Layouts" pc="268436405" symbol="MainLayout"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\bin\\gen\\006-B2691-00\\source\\Rez.mcgen" id="20" lineNum="25" parent="globals/Rez/Layouts" pc="268436442" symbol="MainLayout"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\bin\\gen\\006-B2691-00\\source\\Rez.mcgen" id="20" lineNum="27" parent="globals/Rez/Layouts" pc="268436590" symbol="MainLayout"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\bin\\gen\\006-B2691-00\\source\\Rez.mcgen" id="20" lineNum="29" parent="globals/Rez/Layouts" pc="268436702" symbol="MainLayout"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="8" lineNum="25" parent="globals/PrankHeartRateView" pc="268435617" symbol="&lt;init&gt;"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="10" lineNum="121" parent="globals/PrankHeartRateView" pc="268435652" symbol="displayHeartRate"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="10" lineNum="122" parent="globals/PrankHeartRateView" pc="268435656" symbol="displayHeartRate"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="10" lineNum="123" parent="globals/PrankHeartRateView" pc="268435656" symbol="displayHeartRate"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="10" lineNum="125" parent="globals/PrankHeartRateView" pc="268435656" symbol="displayHeartRate"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="10" lineNum="126" parent="globals/PrankHeartRateView" pc="268435667" symbol="displayHeartRate"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="10" lineNum="128" parent="globals/PrankHeartRateView" pc="268435677" symbol="displayHeartRate"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="10" lineNum="129" parent="globals/PrankHeartRateView" pc="268435702" symbol="displayHeartRate"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="10" lineNum="131" parent="globals/PrankHeartRateView" pc="268435712" symbol="displayHeartRate"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="10" lineNum="132" parent="globals/PrankHeartRateView" pc="268435737" symbol="displayHeartRate"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="10" lineNum="135" parent="globals/PrankHeartRateView" pc="268435747" symbol="displayHeartRate"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="10" lineNum="138" parent="globals/PrankHeartRateView" pc="268435754" symbol="displayHeartRate"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="10" lineNum="140" parent="globals/PrankHeartRateView" pc="268435773" symbol="displayHeartRate"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="10" lineNum="141" parent="globals/PrankHeartRateView" pc="268435793" symbol="displayHeartRate"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="10" lineNum="143" parent="globals/PrankHeartRateView" pc="268435813" symbol="displayHeartRate"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="11" lineNum="33" parent="globals/PrankHeartRateView" pc="268435830" symbol="onLayout"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="11" lineNum="34" parent="globals/PrankHeartRateView" pc="268435832" symbol="onLayout"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="11" lineNum="36" parent="globals/PrankHeartRateView" pc="268435873" symbol="onLayout"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="11" lineNum="38" parent="globals/PrankHeartRateView" pc="268435897" symbol="onLayout"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="12" lineNum="61" parent="globals/PrankHeartRateView" pc="268435910" symbol="masterControl"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="12" lineNum="62" parent="globals/PrankHeartRateView" pc="268435912" symbol="masterControl"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="12" lineNum="63" parent="globals/PrankHeartRateView" pc="268435924" symbol="masterControl"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="13" lineNum="67" parent="globals/PrankHeartRateView" pc="268435966" symbol="measuringHeartRate"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="13" lineNum="68" parent="globals/PrankHeartRateView" pc="268435970" symbol="measuringHeartRate"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="13" lineNum="70" parent="globals/PrankHeartRateView" pc="268435989" symbol="measuringHeartRate"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="13" lineNum="71" parent="globals/PrankHeartRateView" pc="268436015" symbol="measuringHeartRate"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="13" lineNum="73" parent="globals/PrankHeartRateView" pc="268436038" symbol="measuringHeartRate"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="13" lineNum="75" parent="globals/PrankHeartRateView" pc="268436054" symbol="measuringHeartRate"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="13" lineNum="76" parent="globals/PrankHeartRateView" pc="268436080" symbol="measuringHeartRate"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="13" lineNum="78" parent="globals/PrankHeartRateView" pc="268436096" symbol="measuringHeartRate"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="13" lineNum="83" parent="globals/PrankHeartRateView" pc="268436115" symbol="measuringHeartRate"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="13" lineNum="84" parent="globals/PrankHeartRateView" pc="268436132" symbol="measuringHeartRate"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="13" lineNum="86" parent="globals/PrankHeartRateView" pc="268436150" symbol="measuringHeartRate"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="13" lineNum="88" parent="globals/PrankHeartRateView" pc="268436169" symbol="measuringHeartRate"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="13" lineNum="89" parent="globals/PrankHeartRateView" pc="268436197" symbol="measuringHeartRate"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="14" lineNum="95" parent="globals/PrankHeartRateView" pc="268436236" symbol="chooseStartValue"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="14" lineNum="97" parent="globals/PrankHeartRateView" pc="268436240" symbol="chooseStartValue"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="14" lineNum="99" parent="globals/PrankHeartRateView" pc="268436263" symbol="chooseStartValue"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="14" lineNum="100" parent="globals/PrankHeartRateView" pc="268436277" symbol="chooseStartValue"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="15" lineNum="112" parent="globals/PrankHeartRateView" pc="268436280" symbol="incrementHeartRate"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="15" lineNum="113" parent="globals/PrankHeartRateView" pc="268436284" symbol="incrementHeartRate"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="15" lineNum="115" parent="globals/PrankHeartRateView" pc="268436307" symbol="incrementHeartRate"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="15" lineNum="116" parent="globals/PrankHeartRateView" pc="268436323" symbol="incrementHeartRate"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="16" lineNum="28" parent="globals/PrankHeartRateView" pc="268436344" symbol="initialize"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="16" lineNum="29" parent="globals/PrankHeartRateView" pc="268436346" symbol="initialize"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="18" lineNum="48" parent="globals/PrankHeartRateView" pc="268436365" symbol="onUpdate"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="18" lineNum="50" parent="globals/PrankHeartRateView" pc="268436367" symbol="onUpdate"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="19" lineNum="104" parent="globals/PrankHeartRateView" pc="268436388" symbol="getRandNum"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="19" lineNum="106" parent="globals/PrankHeartRateView" pc="268436392" symbol="getRandNum"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="19" lineNum="107" parent="globals/PrankHeartRateView" pc="268436436" symbol="getRandNum"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\bin\\gen\\006-B2691-00\\source\\Rez.mcgen" id="20" lineNum="21" parent="globals/Rez/Layouts" pc="268436439" symbol="MainLayout"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\bin\\gen\\006-B2691-00\\source\\Rez.mcgen" id="20" lineNum="22" parent="globals/Rez/Layouts" pc="268436451" symbol="MainLayout"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\bin\\gen\\006-B2691-00\\source\\Rez.mcgen" id="20" lineNum="23" parent="globals/Rez/Layouts" pc="268436556" symbol="MainLayout"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\bin\\gen\\006-B2691-00\\source\\Rez.mcgen" id="20" lineNum="25" parent="globals/Rez/Layouts" pc="268436593" symbol="MainLayout"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\bin\\gen\\006-B2691-00\\source\\Rez.mcgen" id="20" lineNum="27" parent="globals/Rez/Layouts" pc="268436718" symbol="MainLayout"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
         <entry id="8389346" symbol="text"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
         <entry id="7" module="true" symbol="globals/Rez/Menus"/>
-        <entry id="18" method="true" symbol="getRandNum"/>
-        <entry id="24" method="true" symbol="MainLayout"/>
-        <entry id="20" method="true" symbol="measuringHeartRate"/>
-        <entry id="17" method="true" symbol="displayHeartRate"/>
+        <entry id="19" method="true" symbol="getRandNum"/>
+        <entry id="26" method="true" symbol="MainLayout"/>
+        <entry id="22" method="true" symbol="measuringHeartRate"/>
+        <entry id="18" method="true" symbol="displayHeartRate"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="26" symbol="AppName"/>
+        <entry field="true" id="15" symbol="&lt;globals/PrankHeartRateView/&lt;&gt;_measuringCount&gt;"/>
+        <entry field="true" id="28" symbol="AppName"/>
         <entry id="8" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
         <entry id="8389345" symbol="rezId"/>
@@ -90,55 +96,55 @@
         <entry id="8389275" method="true" symbol="getApp"/>
         <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry field="true" id="23" symbol="&lt;globals/PrankHeartRateView/&lt;&gt;myTimer&gt;"/>
         <entry field="true" id="8389063" symbol="identifier"/>
         <entry id="8389349" symbol="justification"/>
-        <entry field="true" id="15" symbol="&lt;globals/PrankHeartRateView/&lt;&gt;_measuringLabel&gt;"/>
-        <entry field="true" id="23" symbol="heart_icon"/>
+        <entry field="true" id="16" symbol="&lt;globals/PrankHeartRateView/&lt;&gt;_measuringLabel&gt;"/>
+        <entry id="21" method="true" symbol="masterControl"/>
+        <entry field="true" id="25" symbol="heart_icon"/>
         <entry id="5" module="true" symbol="globals/Rez/JsonData"/>
-        <entry field="true" id="25" symbol="font_id"/>
+        <entry field="true" id="27" symbol="font_id"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
         <entry id="8388640" module="true" symbol="Lang"/>
         <entry field="true" id="13" symbol="&lt;globals/PrankHeartRateView/&lt;&gt;_heartRate&gt;"/>
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-        <entry field="true" id="22" symbol="LauncherIcon"/>
+        <entry field="true" id="24" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389123" method="true" symbol="onShow"/>
         <entry id="8389350" module="true" symbol="globals"/>
-        <entry id="21" method="true" symbol="measuringHeartRateEachSecond"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
         <entry id="8388702" method="true" symbol="initialize"/>
         <entry field="true" id="14" symbol="&lt;globals/PrankHeartRateView/&lt;&gt;_heartRateElement&gt;"/>
         <entry id="8389279" method="true" symbol="onStart"/>
-        <entry id="19" method="true" symbol="incrementHeartRate"/>
+        <entry id="20" method="true" symbol="incrementHeartRate"/>
         <entry id="8388641" module="true" symbol="Math"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
         <entry id="8389347" symbol="color"/>
         <entry id="8388646" module="true" object="true" symbol="Timer"/>
         <entry id="11" module="true" symbol="Layouts"/>
-        <entry id="16" method="true" symbol="chooseStartValue"/>
+        <entry id="17" method="true" symbol="chooseStartValue"/>
         <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
         <entry id="8389125" method="true" symbol="onHide"/>
         <entry id="8388635" module="true" symbol="Application"/>
         <entry id="9" object="true" symbol="PrankHeartRateApp"/>
     </symbolTable>
     <localVars>
-        <entry arg="true" endPc="268435795" name="_heartRate" stackId="1" startPc="268435618"/>
-        <entry endPc="268435794" name="label" stackId="2" startPc="268435622"/>
-        <entry endPc="268435794" name="color" stackId="3" startPc="268435622"/>
-        <entry arg="true" endPc="268435875" name="dc" stackId="1" startPc="268435796"/>
-        <entry endPc="268436048" name="_heartRate" stackId="1" startPc="268436009"/>
-        <entry endPc="268436111" name="increment" stackId="1" startPc="268436053"/>
-        <entry endPc="268436212" name="myTimer" stackId="1" startPc="268436138"/>
-        <entry arg="true" endPc="268436236" name="dc" stackId="1" startPc="268436214"/>
-        <entry arg="true" endPc="268436287" name="low" stackId="1" startPc="268436237"/>
-        <entry arg="true" endPc="268436287" name="high" stackId="2" startPc="268436237"/>
-        <entry endPc="268436287" name="value" stackId="3" startPc="268436241"/>
-        <entry arg="true" endPc="268436738" name="dc" stackId="1" startPc="268436288"/>
-        <entry endPc="268436738" name="rez_cmp_local_bitmap_heart_icon" stackId="2" startPc="268436300"/>
-        <entry endPc="268436738" name="rez_cmp_local_text_heart_rate" stackId="3" startPc="268436300"/>
-        <entry endPc="268436738" name="rez_cmp_local_text_warning" stackId="4" startPc="268436300"/>
+        <entry arg="true" endPc="268435829" name="_heartRate" stackId="1" startPc="268435652"/>
+        <entry endPc="268435828" name="label" stackId="2" startPc="268435656"/>
+        <entry endPc="268435828" name="color" stackId="3" startPc="268435656"/>
+        <entry arg="true" endPc="268435909" name="dc" stackId="1" startPc="268435830"/>
+        <entry endPc="268436231" name="_timer" stackId="1" startPc="268436132"/>
+        <entry endPc="268436279" name="_heartRate" stackId="1" startPc="268436240"/>
+        <entry endPc="268436342" name="increment" stackId="1" startPc="268436284"/>
+        <entry arg="true" endPc="268436387" name="dc" stackId="1" startPc="268436365"/>
+        <entry arg="true" endPc="268436438" name="low" stackId="1" startPc="268436388"/>
+        <entry arg="true" endPc="268436438" name="high" stackId="2" startPc="268436388"/>
+        <entry endPc="268436438" name="value" stackId="3" startPc="268436392"/>
+        <entry arg="true" endPc="268436744" name="dc" stackId="1" startPc="268436439"/>
+        <entry endPc="268436744" name="rez_cmp_local_bitmap_heart_icon" stackId="2" startPc="268436451"/>
+        <entry endPc="268436744" name="rez_cmp_local_text_heart_rate" stackId="3" startPc="268436451"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
@@ -151,12 +157,12 @@
         <dataEntry label="globals/Rez" offset="158" parentId="globals" symbolId="Rez" type="module"/>
         <dataEntry label="globals/PrankHeartRateApp" offset="237" parentId="globals" symbolId="PrankHeartRateApp" type="class"/>
         <dataEntry label="globals/PrankHeartRateView" offset="308" parentId="globals" symbolId="PrankHeartRateView" type="class"/>
-        <dataEntry label="globals/Rez/Drawables" offset="459" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="506" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Menus" offset="545" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry label="globals/Rez/Fonts" offset="576" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="615" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/Rez/JsonData" offset="654" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/Rez/Drawables" offset="475" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="522" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="561" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="592" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="631" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="670" parentId="Rez" symbolId="JsonData" type="module"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268435485" name="getApp" startPc="268435460">
@@ -182,43 +188,43 @@
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435617" name="&lt;init&gt;" parent="PrankHeartRateView" startPc="268435599">
+        <functionEntry accessMode="public" endPc="268435651" name="&lt;init&gt;" parent="PrankHeartRateView" startPc="268435599">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onShow" parent="PrankHeartRateView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435795" name="displayHeartRate" parent="PrankHeartRateView" startPc="268435618">
+        <functionEntry accessMode="public" endPc="268435829" name="displayHeartRate" parent="PrankHeartRateView" startPc="268435652">
             <param id="_heartRate"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435875" name="onLayout" parent="PrankHeartRateView" startPc="268435796">
+        <functionEntry accessMode="public" endPc="268435909" name="onLayout" parent="PrankHeartRateView" startPc="268435830">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436004" name="measuringHeartRate" parent="PrankHeartRateView" startPc="268435876">
+        <functionEntry accessMode="public" endPc="268435965" name="masterControl" parent="PrankHeartRateView" startPc="268435910">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436048" name="chooseStartValue" parent="PrankHeartRateView" startPc="268436005">
+        <functionEntry accessMode="public" endPc="268436235" name="measuringHeartRate" parent="PrankHeartRateView" startPc="268435966">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436112" name="incrementHeartRate" parent="PrankHeartRateView" startPc="268436049">
+        <functionEntry accessMode="public" endPc="268436279" name="chooseStartValue" parent="PrankHeartRateView" startPc="268436236">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436133" name="initialize" parent="PrankHeartRateView" startPc="268436113">
+        <functionEntry accessMode="public" endPc="268436343" name="incrementHeartRate" parent="PrankHeartRateView" startPc="268436280">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436364" name="initialize" parent="PrankHeartRateView" startPc="268436344">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onHide" parent="PrankHeartRateView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436213" name="measuringHeartRateEachSecond" parent="PrankHeartRateView" startPc="268436134">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436236" name="onUpdate" parent="PrankHeartRateView" startPc="268436214">
+        <functionEntry accessMode="public" endPc="268436387" name="onUpdate" parent="PrankHeartRateView" startPc="268436365">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436287" name="getRandNum" parent="PrankHeartRateView" startPc="268436237">
+        <functionEntry accessMode="public" endPc="268436438" name="getRandNum" parent="PrankHeartRateView" startPc="268436388">
             <param id="low"/>
             <param id="high"/>
             <documentation/>
@@ -241,7 +247,7 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436738" name="MainLayout" parent="Layouts" startPc="268436288">
+        <functionEntry accessMode="public" endPc="268436744" name="MainLayout" parent="Layouts" startPc="268436439">
             <param id="dc"/>
             <documentation/>
         </functionEntry>

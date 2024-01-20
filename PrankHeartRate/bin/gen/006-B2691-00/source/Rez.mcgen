@@ -19,14 +19,12 @@ module Rez {
 
     module Layouts {
         function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_bitmap_heart_icon = new WatchUi.Bitmap({:identifier=>"heart_icon", :rezId=>$.Rez.Drawables.heart_icon, :locX=>WatchUi.LAYOUT_HALIGN_CENTER, :locY=>(240 * (20 / 100.0))});
-            rez_cmp_local_bitmap_heart_icon.setLocation(((240 - rez_cmp_local_bitmap_heart_icon.width) * 0.5), (240 * (20 / 100.0)));
+            var rez_cmp_local_bitmap_heart_icon = new WatchUi.Bitmap({:identifier=>"heart_icon", :rezId=>$.Rez.Drawables.heart_icon, :locX=>WatchUi.LAYOUT_HALIGN_CENTER, :locY=>(240 * (30 / 100.0))});
+            rez_cmp_local_bitmap_heart_icon.setLocation(((240 - rez_cmp_local_bitmap_heart_icon.width) * 0.5), (240 * (30 / 100.0)));
 
-            var rez_cmp_local_text_heart_rate = new WatchUi.Text({:identifier=>"heart_rate", :color=>Gfx.COLOR_GREEN, :locX=>(240 * 0.5), :locY=>((240 - dc.getFontHeight(Gfx.FONT_LARGE)) * 0.5), :text=>"50 BPM", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_LARGE});
+            var rez_cmp_local_text_heart_rate = new WatchUi.Text({:identifier=>"heart_rate", :color=>Gfx.COLOR_GREEN, :locX=>(240 * 0.5), :locY=>(240 * (50 / 100.0)), :text=>"50 BPM", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_LARGE});
 
-            var rez_cmp_local_text_warning = new WatchUi.Text({:identifier=>"warning", :color=>Gfx.COLOR_GREEN, :locX=>(240 * 0.5), :locY=>(240 * (60 / 100.0)), :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_LARGE});
-
-            return [rez_cmp_local_bitmap_heart_icon, rez_cmp_local_text_heart_rate, rez_cmp_local_text_warning] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_bitmap_heart_icon, rez_cmp_local_text_heart_rate] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 
