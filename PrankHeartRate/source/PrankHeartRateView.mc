@@ -15,13 +15,17 @@ class PrankHeartRateView extends WatchUi.View {
     const LOW_INCREMENT = -3;
     const HIGH_INCREMENT = 8;
 
+    // The range in which the measuring phase can last for
+    private var MIN_MEASURING_TIME = 7;
+    private var MAX_MEASURING_TIME = 13;
+
 
     private var _heartRateElement;
     private var _heartRate;
 
     private var _measuringLabel = "Measuring";
     private var _measuringCount = 0;
-    private var _measuringTime = getRandNum(6, 13);
+    private var _measuringTime = getRandNum(MIN_MEASURING_TIME, MAX_MEASURING_TIME);
 
     private var myTimer = new Timer.Timer();
 
