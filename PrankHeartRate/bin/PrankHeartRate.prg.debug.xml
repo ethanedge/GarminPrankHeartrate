@@ -64,11 +64,11 @@
         <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="19" lineNum="109" parent="globals/PrankHeartRateView" pc="268436426" symbol="getRandNum"/>
         <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="19" lineNum="111" parent="globals/PrankHeartRateView" pc="268436430" symbol="getRandNum"/>
         <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\source\\PrankHeartRateView.mc" id="19" lineNum="112" parent="globals/PrankHeartRateView" pc="268436474" symbol="getRandNum"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\bin\\gen\\006-B2691-00\\source\\Rez.mcgen" id="20" lineNum="21" parent="globals/Rez/Layouts" pc="268436477" symbol="MainLayout"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\bin\\gen\\006-B2691-00\\source\\Rez.mcgen" id="20" lineNum="22" parent="globals/Rez/Layouts" pc="268436489" symbol="MainLayout"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\bin\\gen\\006-B2691-00\\source\\Rez.mcgen" id="20" lineNum="23" parent="globals/Rez/Layouts" pc="268436594" symbol="MainLayout"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\bin\\gen\\006-B2691-00\\source\\Rez.mcgen" id="20" lineNum="25" parent="globals/Rez/Layouts" pc="268436631" symbol="MainLayout"/>
-        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\bin\\gen\\006-B2691-00\\source\\Rez.mcgen" id="20" lineNum="27" parent="globals/Rez/Layouts" pc="268436756" symbol="MainLayout"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\bin\\gen\\006-B2691-00\\source\\Rez.mcgen" id="20" lineNum="20" parent="globals/Rez/Layouts" pc="268436477" symbol="MainLayout"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\bin\\gen\\006-B2691-00\\source\\Rez.mcgen" id="20" lineNum="21" parent="globals/Rez/Layouts" pc="268436489" symbol="MainLayout"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\bin\\gen\\006-B2691-00\\source\\Rez.mcgen" id="20" lineNum="22" parent="globals/Rez/Layouts" pc="268436594" symbol="MainLayout"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\bin\\gen\\006-B2691-00\\source\\Rez.mcgen" id="20" lineNum="24" parent="globals/Rez/Layouts" pc="268436631" symbol="MainLayout"/>
+        <entry filename="Z:\\Coding\\Monkey C\\GarminPrankHeartrate\\PrankHeartRate\\bin\\gen\\006-B2691-00\\source\\Rez.mcgen" id="20" lineNum="26" parent="globals/Rez/Layouts" pc="268436756" symbol="MainLayout"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -81,7 +81,7 @@
         <entry id="21" method="true" symbol="displayHeartRate"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
         <entry field="true" id="17" symbol="&lt;globals/PrankHeartRateView/&lt;&gt;_measuringCount&gt;"/>
-        <entry field="true" id="31" symbol="AppName"/>
+        <entry field="true" id="30" symbol="AppName"/>
         <entry id="8" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
         <entry field="true" id="19" symbol="&lt;globals/PrankHeartRateView/&lt;&gt;_measuringTime&gt;"/>
@@ -106,7 +106,6 @@
         <entry id="24" method="true" symbol="masterControl"/>
         <entry field="true" id="28" symbol="heart_icon"/>
         <entry id="5" module="true" symbol="globals/Rez/JsonData"/>
-        <entry field="true" id="30" symbol="font_id"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
         <entry id="8388640" module="true" symbol="Lang"/>
@@ -152,7 +151,6 @@
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
-        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="font_id"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="heart_icon"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
     </annotations>
@@ -165,8 +163,8 @@
         <dataEntry label="globals/Rez/Layouts" offset="546" parentId="Rez" symbolId="Layouts" type="module"/>
         <dataEntry label="globals/Rez/Menus" offset="585" parentId="Rez" symbolId="Menus" type="module"/>
         <dataEntry label="globals/Rez/Fonts" offset="616" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="655" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/Rez/JsonData" offset="694" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="647" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="686" parentId="Rez" symbolId="JsonData" type="module"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268435485" name="getApp" startPc="268435460">
